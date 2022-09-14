@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+form, label {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Courier, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: rgb(18, 14, 8);
+	background-color: rgb(13, 7, 0);
+}
+
+table {
+    margin: 20px;
+}
+
+label {
+    margin: 10px;
+}
+
+input, textarea {
+    border-radius: 8px;
+    background-color: rgb(235, 224, 203);
+}
+
+p {
+    margin: 20px;
+}
+
+h3.main {
+    margin: 20px 60px;
+}
+
+h3.contacts {
+    margin: 10px 30px;
+}
+
+a {
+    color: rgb(137, 84, 3);
+}
+
+a:hover {
+    color: rgb(92, 56, 1);
+}
+
+a:visited {
+    color: rgb(201, 107, 3);
+}
+
+ul>li>ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+div.input {
+    min-width: 70%;
+    margin: 10px;
+}
+
+.input-label {
+    display: inline-block;
+    min-width: 15%;
+}
+
+div.container {
+    background-color: rgb(214, 193, 163);
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+}
+
+div.starting-info {
+    display: flex;
+}
+
+div.image {
+    padding: 15px;
+    width: 60%;
+}
+
+div.info-me {
+    padding: 15px;
+    margin: 10px;
+}
+
+img.main {
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(100, 71, 47);
+    width: 100%;
+}
+
+table.portfolio {
+    border-collapse: collapse;
+    border: 2px solid grey;
+}
+
+table.portfolio>thead>tr.table-headers {
+    text-align: left;
+}
+
+div.starting-info>div.image>img.main, div.starting-info>div.info-me: {
+    float: left;
+    width:50px;
+    margin: 10px;
+}
+
+.table-headers>th, .table-body>td {
+    border-collapse: collapse;
+    border: 2px solid grey;
+    padding: 5px;
+    padding-right: 30px;
+}
