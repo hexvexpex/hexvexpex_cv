@@ -36,17 +36,16 @@ h3.contacts {
     margin: 10px 30px;
 }
 
-/*TODO: The colours don't work anymore*/
-a {
+a:link {
     color: rgb(137, 84, 3);
-}
-
-a:hover {
-    color: rgb(92, 56, 1);
 }
 
 a:visited {
     color: rgb(201, 107, 3);
+}
+
+a:hover {
+    color: rgb(92, 56, 1);
 }
 
 ul>li>ul {
