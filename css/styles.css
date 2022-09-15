@@ -15,48 +15,46 @@ body {
 	background-color: rgb(13, 7, 0);
 }
 
-label {
-    margin: 10px;
-}
-
 input, textarea {
     border-radius: 8px;
     background-color: rgb(235, 224, 203);
 }
 
-h1, h3 {
+h1, h2, h3 {
     color: rgb(154, 102, 50);
 }
 
-h3.main {
+.table-heading {
     margin: 20px 60px;
 }
 
-h3.contacts {
+h3.contacts-heading {
     margin: 10px 30px;
 }
 
+.bottom-container>a {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
 a:link {
-    color: rgb(137, 84, 3);
+    color: rgb(124, 80, 24);
 }
 
 a:visited {
-    color: rgb(201, 107, 3);
+    color: rgb(162, 86, 2);
 }
 
 a:hover {
-    color: rgb(92, 56, 1);
+    color: rgb(60, 44, 19);
 }
 
-ul>li>ul {
+li.empty-circle {
     list-style-type: circle;
 }
 
-ol {
-    list-style-type: upper-roman;
-}
-
-div.container {
+div.base-container {
     background-color: rgb(214, 193, 163);
     border-radius: 15px;
     margin: 20px;
@@ -78,12 +76,13 @@ div.input {
     margin: 10px;
 }
 
-.input-label {
+.input-name {
     display: inline-block;
     min-width: 15%;
+    margin: 10px;
 }
 
-div.starting-info {
+div.starting-info-container {
     display: flex;
 }
 
@@ -92,40 +91,39 @@ div.image {
     width: 80%;
 }
 
-div.info-me {
+div.top_info {
     padding: 30px;
     margin: 10px;
     width: 80%;
 }
 
-img.main {
+.top-image {
     border-radius: 20px;
     box-shadow: 10px 10px 10px 10px rgb(100, 71, 47);
     width: 100%;
 }
 
-.name-header {
+/* there's a mess below */
 
-}
-
-table.portfolio {
+/* This makes tables with one collapsed border
+.portfolio-table, .skills-table {
     border-collapse: collapse;
     border: 2px solid grey;
 }
+*/
 
-table.portfolio>thead>tr.table-headers {
+.table-headers {
     text-align: left;
 }
 
-div.starting-info>div.image>img.main, div.starting-info>div.info-me: {
-    float: left;
-    width:50px;
-    margin: 10px;
-}
-
+/* This makes double-bordered tables */
 .table-headers>th, .table-body>td {
     border-collapse: collapse;
     border: 2px solid grey;
     padding: 5px;
     padding-right: 30px;
 }
+
+
+
+
