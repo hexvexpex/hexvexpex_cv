@@ -8,7 +8,7 @@ form, label {
 }
 
 body {
-    font-family: Courier, sans-serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 18px;
 	font-weight: 500;
 	color: rgb(18, 14, 8);
@@ -18,6 +18,10 @@ body {
 input, textarea {
     border-radius: 8px;
     background-color: rgb(235, 224, 203);
+}
+
+.name-header {
+    font-style: "Sacramento", cursive;
 }
 
 h1, h2, h3 {
