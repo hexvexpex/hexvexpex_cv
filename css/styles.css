@@ -102,9 +102,9 @@ div.top_info {
 }
 
 .top-image {
-    border-radius: 20px;
+    border-radius: 50%;
     box-shadow: 10px 10px 10px 10px rgb(100, 71, 47);
-    width: 100%;
+    max-width: 200px;
 }
 
 /* there's a mess below */
