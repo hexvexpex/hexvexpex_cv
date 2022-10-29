@@ -71,7 +71,7 @@ hr.dots {
     border-color: #8a7a60;
     border-width: 5px;
     width: 5%;
-    margin-top: 70px;
+    margin-top: 21px;
     margin-bottom: 40px;
 }
 
@@ -91,8 +91,8 @@ div.starting-info-container {
 }
 
 div.image {
-    padding: 15px;
-    width: 80%;
+    padding: 31px 31px 31px 81px;
+    width: 35%;
 }
 
 div.top_info {
